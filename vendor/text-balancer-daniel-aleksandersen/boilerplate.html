@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Text Wrapping Boilerplate</title>
+    <style>
+      .balance-text {
+        visibility: hidden;
+      }
+
+      @media (scripting: none) {
+        .balance-text {
+          visibility: visible;
+        }
+      }
+
+      @supports (text-wrap: balance) {
+        .balance-text {
+          text-wrap: balance;
+          visibility: visible;
+        }
+      }
+    </style>
+    <noscript>
+      <style>
+        .balance-text {
+          visibility: visible !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <header style="max-width:40em">
+      <h1 class="balance-text">A Long Example Headline That Wraps Neatly Over Two Lines</h1>
+    </header>
+    <script>
+      // include text-balancer.js inline here
+    </script>
+  </body>
+</html>
