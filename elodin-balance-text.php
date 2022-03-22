@@ -3,7 +3,7 @@
 	Plugin Name: Elodin Balance Text
 	Plugin URI: https://elod.in
     Description: Use the New York Times text-balancer library to balance text in WordPress. Just add the .bt class!
-	Version: 0.2
+	Version: 0.2.1
     Author: Jon Schroeder
     Author URI: https://elod.in
 
@@ -27,7 +27,7 @@ if ( !defined( 'ABSPATH' ) ) {
 // Define directories
 define( 'ELODIN_BALANCE_TEXT_DIR', dirname( __FILE__ ) );
 define( 'ELODIN_BALANCE_TEXT_URL', plugin_dir_url( __FILE__ ) );
-define( 'ELODIN_BALANCE_TEXT_VERSION', '0.2' );
+define( 'ELODIN_BALANCE_TEXT_VERSION', '0.2.1' );
 
 //* Define the default classes
 define( 
